@@ -1,0 +1,102 @@
+html {
+    font-size: 62.5%; /* */
+    box-sizing: border-box;
+  }
+  body {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../advice.jpg);
+    font: 1.6rem Helvetica;
+    height: 90vh;
+    width: 100vw;
+    margin: 0;
+  }
+  
+  .grid-container {
+      height: 90vh;
+    display: grid;
+    grid-template-areas:
+      "main"
+      "footer";
+      grid-template-columns: 1fr;
+      grid-template-rows:   1fr 5rem;
+  }
+  
+ 
+  .main {
+    display: flex;
+    justify-content: center;
+    grid-area: main;
+  }
+  .footer {
+    background: rgb(32,40,58);
+    grid-area: footer;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+p{
+  font-family: 'Holtwood One SC', serif;
+
+  font-weight: 600;
+  font-size: xx-large;
+
+}
+.cardmain{
+  border-radius: 10px;
+  box-shadow:0px 0px 10px 1px rgba(255, 255, 230, 0.6);
+font-family: 'Holtwood One SC', serif;
+  font-size: larger;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  width: 80vw;
+  background: rgb(0, 0, 0,0.5);
+}
+.buttondiv{
+  height: 50px;
+  display: flex;
+ justify-content: center;
+}
+button{
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+  font-size: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 230, 0.6);
+  outline: none;
+  border: 1px solid white;
+  height: 100%;
+  width: 60%;
+  transition: all 0.6s ease-in-out;
+}
+button:hover{
+  background: rgba(0, 0, 0, 0.6);
+}
+
+  
+button:active{
+  background: black;
+  transition: all 0.1ms ease-out;
+}
+
+
+.buttoncls{
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+  
+  
+  
+  
+  
+  
+  
+  
